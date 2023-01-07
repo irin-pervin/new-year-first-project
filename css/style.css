@@ -1,0 +1,316 @@
+/* Start common style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.plans .section-title h2 {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+.text-center {
+    text-align: center;
+}
+
+/* End common style  */
+
+/*Start  Button style  */
+.btn-primary {
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #005FAC;
+
+}
+
+.btn-secondary {
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #005FAC;
+    margin-top: 10px;
+
+}
+
+
+/*End  Button style  */
+
+/* Start banner style  */
+.banner {
+    background-image: url(../images/banner/banner3.png);
+    height: 888px;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content {
+    position: relative;
+    
+}
+
+.banner-inner {
+    text-align: right;
+    position: absolute;
+    width: 550px;
+    right: 10%;
+    margin-top:250px;
+    
+    
+}
+.banner-inner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.banner-inner .banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin:  20px 0;
+}
+
+/* Start About section  */
+
+.about {
+   
+
+}
+.about-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-inner .about-thumbnail img {
+    max-width: 300px;
+   
+    
+}
+
+.about-content {
+    max-width: 400px;
+}
+
+.about-content .content-inner h2 {
+    font-size: 40px;
+    font-weight: 70px;
+    
+}
+
+.about-content .content-inner .about-description {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+
+.about-content .content-inner .list {
+    
+}
+
+.about-list li {
+    font-size: 16px;
+    display: flex;
+    margin: 10px 0;
+}
+
+.about-list li .icon {
+    margin-right: 10px;
+    color: aquamarine;
+}
+
+
+/* End About section  */
+
+
+/* Start plans area style  */
+.plans {
+padding: 100px 0;
+max-width: 1140px;
+margin: 0 auto;
+}
+.plans-inner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.plans-item {
+    text-align: center;
+
+}
+
+
+
+/* End plans area style  */
+
+
+/* Start services atyle  */
+.services {
+    
+}
+.services-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+
+.services-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.single-services {
+    text-align: center;
+}
+
+.single-services h2 {
+    margin-bottom: 20px;
+}
+
+.single-services .description {
+    font-size: 16px;
+    line-height: 25px;
+}
+/* End services atyle  */
+
+/* Srart call to action area style  */
+.call-to-action {
+    max-width: 1140px;
+    background-image: url(../images/watch.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.overlay {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(121,9,19,1) 0%, rgba(255,239,0,0.4209033955379027) 100%);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.call-to-action-inner {
+    margin-left: 50px;
+    margin: 75px;
+    max-width: 500px;
+}
+
+.call-to-action-inner .section-title h2 {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+/* End call to action area style  */
+
+
+/* Start footer area  */
+
+.footer {
+    background-color: #151414;
+    padding: 100px 0;
+}
+
+.footer-inner {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.footer-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    max-width: 485px;
+}
+.contact li {
+    margin-bottom: 15px;
+}
+
+.contact li a {
+    color: #ffffff;
+    font-size: 16px;
+
+}
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-share {
+    display: flex;
+
+}
+
+.social-share li {
+    margin-right: 10px;
+}
+
+.footer-right .subtitle {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.footer-right .btn-secondary {
+    background-color: #005FAC;
+    color: #ffffff;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 5px;
+}
+/* End footer area  */
